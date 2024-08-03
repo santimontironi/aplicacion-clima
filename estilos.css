@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #dfe26e;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    width: auto;
+    height: 400px;
+    background-color: #202020;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.contenedor input{
+    width: 300px;
+    height: 30px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contenedor button{
+    border: none;
+    background-color: #dfe26e;
+    color: #202020;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#datosClima{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+    height: auto;
+}
